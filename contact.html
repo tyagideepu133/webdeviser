@@ -1,0 +1,183 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<title>WEBDEVISER</title>
+<meta name="description" content=""><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" href="img/logo.png">
+<link href="https://fonts.googleapis.com/css?family=Caveat|Open+Sans:300,400,700" rel="stylesheet">
+
+<link rel="stylesheet" href="css/vendor.css">
+<link rel="stylesheet" href="css/alba.css">
+</head>
+
+
+<body data-spy="scroll" data-target=".navbar-collapse" data-offset="90">
+<div class="page-loader d-flex align-items-center justify-content-center">
+	<div class="container">
+		<img class="logo fading-logo" src="img/logo.png" alt="Alba">
+	</div>
+</div>
+<nav class="navbar navbar-expand-md navigation sidebar-left">
+	<div class="container">
+		<button class="navbar-toggler" type="button">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span> 
+			<span class="icon-bar"></span>
+		</button> 
+		<a href="#main" class="navbar-brand">
+			<img src="img/logo.png" alt="Alba Template" class="logo">
+		</a>
+		<div class="collapse navbar-collapse ml-auto" id="main-navbar">
+			<div class="sidebar-brand">
+				<a href="#main">
+					<img src="img/logo.png" alt="WEBDEVISER" class="logo">
+				</a>
+			</div>
+			<ul class="nav navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="#home"><i class="fa-asterisk"></i>Home</a>
+				</li>
+				
+				
+				<li class="nav-item">
+					<a class="nav-link" href="#about"><i class="fa-cogs"></i>About Us</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#why"><i class="fa-cogs"></i>Why Us?</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#services"><i class="fa-cogs"></i>Services</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="contact.html"><i class="fa-cubes"></i>Contact Us</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<main>
+
+<section class="section contact">
+	<div class="container">
+		<div class="section-heading">
+			<h2>Get in touch</h2>
+			<p class="lead">We are happy to help, drop us text if you have any question.</p>
+		</div>
+		<div style="width:60%;margin-left:20%">
+			<form  method="post" class="form form-contact" name="form-contact" response-message-animation="slide-in-up">
+				<div class="form-group">
+					<label for="contact_fullname">Full name</label>
+					<input type="text" name="fullName" id="contact_fullname" class="form-control bg-1" placeholder="Enter your full Name" required>
+				</div>
+				<div class="form-group">
+					<label for="contact_email">Email address</label>
+					<input type="email" name="email" id="contact_email" class="form-control bg-1" placeholder="Valid Email" required> <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+				</div>
+				<div class="form-group">
+					<label for="contact_email">Subject</label>
+					<input type="text" name="subject" id="contact_subject" class="form-control bg-1" placeholder="Subject" required>
+				</div>
+				<div class="form-group">
+					<label for="contact_email">Message</label>
+					<textarea name="message" id="contact_message" class="form-control bg-1" placeholder="What do you want to let us know?" rows="8" required></textarea>
+				</div>
+				<div class="form-group">
+					<button id="contact-submit" data-loading-text="Sending..." name="submit" type="submit" class="btn btn-primary px-5 py-3">Send Message</button>
+				</div>
+			</form>
+		</div>
+		<div class="response-message">
+			<div class="section-heading">
+				<i class="lnr lnr-thumbs-up font-xl"></i>
+				<h2 class="bold">Thank you!!!</h2>
+				<p class="response">Your message has been send, we will contact you as soon as possible.</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<!--<section class="section">
+	<div class="container-wide">
+		<div class="row align-items-center text-center text-lg-left">
+			<div class="col-10 col-lg-4 mx-auto order-md-2">
+				<h2>Designed to provide top-notch appearance</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud officia deserunt mollit exercitation.</p>
+				<p>Nullam vitae scelerisque est, sed tempus metus. Donec convallis volutpat enim consequat viverra. Nam blandit est eu ipsum elementum, ac pellentesque nibh placerat. Quisque venenatis pulvinar nulla, non vestibulum urna ultrices accumsan.</p>
+				<a href="#" class="btn btn-rounded">Learn More</a>
+			</div>
+			<div class="col-12 col-lg-6 pl-0 order-md-1">
+				<img src="img/screens/dash-1.jpg" alt="" class="img-responsive shadow" data-aos="fade-right">
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section">
+	<div class="container-wide">
+		<div class="row align-items-center text-center text-lg-left">
+			<div class="col-10 col-lg-4 mx-auto">
+				<h2>Lightweight HTML template great for your product</h2>
+				<p>Suspendisse dignissim lorem vel elit dapibus mattis. Etiam magna nunc, maximus bibendum diam et, porttitor venenatis augue. Suspendisse rutrum maximus urna.</p>
+				<p>Vivamus ut mauris vel orci ornare hendrerit. Pellentesque eu enim ipsum. In mauris tellus, gravida nec euismod et, egestas et tortor. Sed ante ipsum, scelerisque vel enim eu, facilisis consectetur elit.</p>
+				<a href="#" class="btn btn-rounded">Learn More</a>
+			</div>
+			<div class="col-12 col-lg-6 pr-0">
+				<img src="img/screens/dash-2.jpg" alt="" class="img-responsive shadow" data-aos="fade-left">
+			</div>
+		</div>
+	</div>
+</section>-->
+
+
+
+
+
+</main>
+
+
+<footer class="site-footer section bg-5 color-smoke">
+	<div class="container pb-3">
+		<div class="row">
+			<div class="col-12 col-md-5 mr-auto">
+				<img src="img/logo.png" class="icon ml-0" alt="">
+				<p>Whatever may be your requirement - be it a simple website design, a complex data driven web application development, an ecommerce website, a native or cross platform mobile app development, a logo and brand identity design, a video production or a full fledged digital marketing campaign - we have a solution for you.</p>
+			</div>
+			<div class="col-12 col-md-2">
+				<h4 class="color-1"><span class="bold">Follow</span> Us</h4>
+				<nav class="nav flex-column mt-3"><a class="nav-link pl-0" href="#"><i class="fa-facebook"></i> Facebook</a>
+					<a class="nav-link pl-0" href="#"><i class="fa-twitter"></i> Twitter</a>
+					<a class="nav-link pl-0" href="#"><i class="fa-instagram"></i> Instagram</a>
+				</nav>
+			</div>
+			<div class="col-12 col-md-4">
+				<h4 class="color-1">Stay<span class="bold"> in touch</span></h4>
+				<p>Contact us if you want a website or mobile application for your business.
+				</p>
+				<a class="btn btn-rounded btn-outline-2" href="contact.html">Contact Now</a>
+			</div>
+		</div>
+		<hr class="mt-5 bg-2 border-0">
+		<div class="row footer-bottom small">
+			<div class="col">
+				<p class="mt-2 mb-0">© 2017 WEBDEVISER. All Rights Reserved</p>
+			</div>
+			<div class="col-sm-6 col-md-auto">
+				<nav class="nav">
+					<a class="nav-link" href="#">Privacy Policy</a> 
+					<a class="nav-link" href="#">Terms of Service</a> 
+					<a class="nav-link" href="#">Sitemap</a>
+				</nav>
+			</div>
+		</div>
+	</div>
+</footer>
+<script src="js/lib.js"></script>
+<script src="js/alba.js"></script>
+
+</body>
+</html>
