@@ -1,0 +1,12 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 05 Oct 2017 13:45:30 at http://mydesignhoard.com/HTML/html/education/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://mydesignhoard.com/HTML/html/education/ -O1 "D:\project\demo1" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+13:51:53	Error: 	"Not Found" (404) at link mydesignhoard.com/HTML/html/education/info@uoek.com (from mydesignhoard.com/HTML/html/education/jobdetail.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 6 minutes 26 seconds : 302 links scanned, 300 files written (13924933 bytes overall) [9304959 bytes received at 24106 bytes/sec], 5421644 bytes transferred using HTTP compression in 68 files, ratio 13%, 10.4 requests per connection
+(1 errors, 0 warnings, 0 messages)
